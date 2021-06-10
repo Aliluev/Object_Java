@@ -6,7 +6,12 @@ public class Obj_2 extends Obj_1{
        super(a, b);
        this.c=c;
     }
-    public void show_2(){
+    @Override
+    public void show(){
+        super.show();
+        System.out.println(c);
+    }
+    public void show2(){
         super.show();
         System.out.println(c);
     }

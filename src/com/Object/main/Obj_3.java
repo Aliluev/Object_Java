@@ -8,7 +8,8 @@ public class Obj_3 extends Obj_2{
         super(a, b, c);
         this.k=k;
     }
-    public void show3(){
+    @Override
+    public void show(){
         super.show();
     }
 }
